@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/ico">
+    <title>Garant - Сервис безопасной сделки</title>
+    <!-- <link rel="stylesheet/css" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./less/style.css">
+    <script src="less.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body class="theme-white">
+    <div class="btn-theme" title="Темная/светлая тема"></div>
+    <header class="head-smg">
+        <div class="container clearfix">
+            <a class="logo" href="/">
+                <span class="img"></span>
+            </a>
+
+            <div class="btn-menu">
+                <div class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="head-right--cont">
+                <div class="menu-smg">
+                    <ul>
+                        <li><a class="menu-why btn-scroll" href="#steps">Как работает</a></li>
+                        <li><a class="menu-all" href="">Все сервисы</a></li>
+                    </ul>
+                </div>
+
+                <div id="buttons_header_container" class="head-right">
+                    <div id="signInHeader" class="btn btn-border btn-login btn-modal--login">
+                        <span>Войти</span>
+                    </div>
+                    <div id="signUpHeader" class="btn btn-border btn-reg btn-modal--reg">
+                        <span>Регистрация</span>
+                    </div>
+                    <div class="btn btn-border btn-login btn-modal--login">
+                        <span id="logoutHeader">Выти</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="intro">
+        <div class="container">
+            <div class="flex_block">
+                <div class="intro-cont">
+                    <div class="text">
+                        <div class="text-cont">
+                            <div class="title-big">Любая сделка <br>будет <span>безопасной</span></div>
+                            <div class="title-block">Чтобы иметь гарантии с обеих сторон <br>оформите любую сделку через
+                                наш сервис</div>
+                            <form class="form-intro">
+                                <input type="text" name="summ" placeholder="Сумма сделки">
+                                <button class="btn"><span>Заключить</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="miniature">
+                    <lottie-player src="../js/art-1.json" background="transparent" speed="1"
+                        style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="steps" id="steps">
+        <div class="container">
+            <div class="cont-two flex_block">
+                <div class="cont-left miniature">
+                    <lottie-player src="../js/art-2.json" background="transparent" speed="1"
+                        style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+                </div>
+                <div class="cont-right">
+                    <div class="content-title">Как это работает?</div>
+                    <div class="flex_block">
+                        <div class="step--inner two-item">
+                            <div class="icon-green" style="background-image: url(../img/todo_list.svg)"></div>
+                            <div class="descr">
+                                <p>Вы указываете условия сделки</p>
+                            </div>
+                        </div>
+                        <div class="step--inner two-item">
+                            <div class="icon-green" style="background-image: url(../img/link.svg)"></div>
+                            <div class="descr">
+                                <p>Направляете ссылку Вашему контрагенту</p>
+                            </div>
+                        </div>
+                        <div class="step--inner two-item">
+                            <div class="icon-green" style="background-image: url(../img/money.svg)"></div>
+                            <div class="descr">
+                                <p>Контрагент выполняет условия и получает Ваше вознаграждение</p>
+                            </div>
+                        </div>
+                        <div class="step--inner two-item">
+                            <div class="title-block">Займет <br>не более 5 минут</div>
+                            <div class="btn-block">
+                                <a class="btn btn-modal--reg" href="#"><span>Начать</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="protection">
+        <div class="container">
+            <div class="title-decor">Кратко о системе защиты</div>
+            <div class="content-title">Наша система защиты <br>работает для обеих сторон</div>
+            <div class="entrytext">
+                <p>Правда в том,
+                    что клиенту не нужна
+                    ни ваша компания, ни вы. Ему нужно, чтобы: был построен дом, отремонтировано оборудование, доставлен
+                    товар, выполнена любая услуга и т.д.
+                    Поэтому я всегда и говорю, необходимо написать продающий текст, а только потом уже думать о дизайне
+                    и различных калькуляторах на сайте. Главное — показать клиенту отличия от тысячи других таких же
+                    компаний и вызвать у него доверие.</p>
+            </div>
+            <div class="btn-block">
+                <a class="btn btn-border" href="/" target="_blank"><span>Подробнее о системе защиты</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="container">
+            <div class="title-decor">Преимущества</div>
+            <div class="content-title">5 причин выбрать наш сервис <br>нового поколения</div>
+            <div class="flex_block">
+                <div class="features--inner five-item">
+                    <div class="icon" style="background-image: url(../img/bot.svg)"></div>
+                    <div class="title-bold">Быстро</div>
+                    <div class="descr">
+                        <p>Все автоматически - лишнего делать не придется</p>
+                    </div>
+                </div>
+                <div class="features--inner five-item">
+                    <div class="icon" style="background-image: url(../img/receive_cash.svg)"></div>
+                    <div class="title-bold">Дешевле</div>
+                    <div class="descr">
+                        <p>Доступны Бесплатные сделки для новых пользователей</p>
+                    </div>
+                </div>
+                <div class="features--inner five-item">
+                    <div class="icon" style="background-image: url(../img/lock.svg)"></div>
+                    <div class="title-bold">Надежно</div>
+                    <div class="descr">
+                        <p>Независимо защищаем каждую сторону</p>
+                    </div>
+                </div>
+                <div class="features--inner five-item">
+                    <div class="icon" style="background-image: url(../img/security_time.svg)"></div>
+                    <div class="title-bold">24 часа</div>
+                    <div class="descr">
+                        <p>Вам не придется ждать - мы всегда на готове</p>
+                    </div>
+                </div>
+                <div class="features--inner five-item">
+                    <div class="icon" style="background-image: url(../img/fraud.svg)"></div>
+                    <div class="title-bold">Конфиденциально</div>
+                    <div class="descr">
+                        <p>Все данные шифруются - информация охраняется</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-content">
+        <div class="container">
+            <div class="form-content--cont">
+                <div class="cont-two flex_block">
+                    <div class="cont-left">
+                        <div class="title-block">Оформите безопасную <br>сделку прямо сейчас <br>всего за 5 минут</div>
+                    </div>
+                    <div class="cont-right">
+                        <form class="form-item">
+                            <label class="input-item">
+                                <input id="countDeal" type="text" name="summ" placeholder="Сумма сделки">
+                                <span class="input-place">Сумма сделки</span>
+                            </label>
+                            <div class="check-block">
+                                <span class="input-place">Тип сделки</span>
+                                <label class="check-item">
+                                    <input value="dealProduct" type="radio" name="type">
+                                    <span class="ckeckmark">Продукт</span>
+                                </label>
+                                <label class="check-item">
+                                    <input value="dealService" type="radio" name="type">
+                                    <span class="ckeckmark">Услуга</span>
+                                </label>
+                            </div>
+                            <button type="button" id="createDealBtn" class="btn "><span>Создать</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="flex_block">
+                <div class="cont-left">
+                    <div class="stars-block">
+
+                    </div>
+                </div>
+                <div class="cont-right">
+                    <div class="title-decor">Отзывы наших клиентов</div>
+                    <div class="content-title">Более 1 млн пользователей <br>оценили наш сервис</div>
+                    <div class="reviews_slider regular">
+                        <div class="reviews--inner">
+                            <div class="entrytext">
+                                <p>Поэтому я всегда и говорю, необходимо написать продающий текст, а только потом уже
+                                    думать о дизайне и различных калькуляторах на сайте. Главное — показать клиенту
+                                    отличия от тысячи других таких же компаний и вызвать у него доверие. Поэтому я
+                                    предлагаю свои услуги по написанию текста. Если я напишу хороший текст — я создам
+                                    уникальный сайт, а если сайт будет уникальным — вы обратитесь ко мне еще 1000 раз за
+                                    помощью.</p>
+                            </div>
+                            <div class="name title-bold">Самигуллин Данил Игоревич</div>
+                            <div class="stars">
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item"></span>
+                            </div>
+                        </div>
+                        <div class="reviews--inner">
+                            <div class="entrytext">
+                                <p>Поэтому я всегда и говорю, необходимо написать продающий текст, а только потом уже
+                                    думать о дизайне и различных калькуляторах на сайте. Главное — показать клиенту
+                                    отличия от тысячи других таких же компаний и вызвать у него доверие. Поэтому я
+                                    предлагаю свои услуги по написанию текста. Если я напишу хороший текст — я создам
+                                    уникальный сайт, а если сайт будет уникальным — вы обратитесь ко мне еще 1000 раз за
+                                    помощью.</p>
+                            </div>
+                            <div class="name title-bold">Самигуллин Данил Игоревич</div>
+                            <div class="stars">
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item"></span>
+                                <span class="star-item"></span>
+                            </div>
+                        </div>
+                        <div class="reviews--inner">
+                            <div class="entrytext">
+                                <p>Поэтому я всегда и говорю, необходимо написать продающий текст, а только потом уже
+                                    думать о дизайне и различных калькуляторах на сайте. Главное — показать клиенту
+                                    отличия от тысячи других таких же компаний и вызвать у него доверие. Поэтому я
+                                    предлагаю свои услуги по написанию текста. Если я напишу хороший текст — я создам
+                                    уникальный сайт, а если сайт будет уникальным — вы обратитесь ко мне еще 1000 раз за
+                                    помощью.</p>
+                            </div>
+                            <div class="name title-bold">Самигуллин Данил Игоревич</div>
+                            <div class="stars">
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                                <span class="star-item star-active"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-work">
+        <div class="container">
+            <div class="title-decor">Подведем итоги</div>
+            <div class="content-title">Почему с нами стоит работать?</div>
+            <div class="flex_block">
+                <div class="features-work--inner three-item">
+                    <div class="icon-green" style="background-image: url(../img/law.png)"></div>
+                    <div class="descr">
+                        <p>Работаем на рынке не первый год, сотрудничаем с юристами</p>
+                    </div>
+                </div>
+                <div class="features-work--inner three-item">
+                    <div class="icon-green" style="background-image: url(../img/contract.png)"></div>
+                    <div class="descr">
+                        <p>Юридическая защита - <br>сможем помочь с оформлением договорами</p>
+                    </div>
+                </div>
+                <div class="features-work--inner three-item">
+                    <div class="icon-green" style="background-image: url(../img/handshake.png)"></div>
+                    <div class="descr">
+                        <p>Всё под контролем - все этапы прозрачны для обеих сторон</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-block">
+                <a class="btn btn-modal--reg" href="#"><span>Создать сделку за 5 минут</span></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="smg-footer" id="contacts">
+        <div class="container clearfix">
+            <ul class="menu-footer">
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Договора</a></li>
+                <li><a href="">Условия</a></li>
+                <li><a href="">Политика конфиденциальности</a></li>
+            </ul>
+            <div class="copyright">© garant.gg - сервис безопасной сделки</div>
+        </div>
+    </div>
+
+    <div class="modal-smg_boby" id="modal-smg--login">
+        <div class="modal-smg_boby-content">
+            <div class="modal-smg">
+                <div class="modal-smg_container">
+                    <div class="close--modal-smg close-modal"></div>
+                    <form class="form-modal">
+                        <div class="title-modal">Войти в сервис</div>
+                        <input type="text" name="login" placeholder="e-mail или login" required id="loginEmail">
+                        <input type="password" name="pass" placeholder="Ваш пароль" required id="loginPassword">
+                        <button type="button" id="loginBtn" class="btn"><span>Войти</span></button>
+                        <div class="info-modal">
+                            <a class="reg-go btn-modal--reg" href="#">Зарегистрироваться</a>
+                        </div>
+                        <!-- <input type="hidden" name="formData" value="Заказали обратный звонок с сайта <?php echo get_home_url(); ?>"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="close-smg_boby close-modal"></div>
+        </div>
+    </div>
+
+    <div class="modal-smg_boby" id="modal-smg--reg">
+        <div class="modal-smg_boby-content">
+            <div class="modal-smg">
+                <div class="modal-smg_container">
+                    <div class="close--modal-smg close-modal"></div>
+                    <form class="form-modal">
+                        <div class="title-modal">Зарегистрироваться <br>в сервисе</div>
+                        <input id="singupEmail" type="email" name="login" placeholder="e-mail" required>
+                        <input id="singupPassword" type="password" name="pass" placeholder="Придумайте пароль"
+                            autocomplete="current-password" required>
+                        <input type="password" name="pass2" placeholder="Введите пароль еще раз" required>
+                        <button type="button" id="singupBtn" class="btn"><span>Войти</span></button>
+                        <label class="polit-form">
+                            <input name="polit" type="checkbox" checked="checked" required>
+                            <span class="checkmark">Я ознакомился с <a href="" target="_blank">политикой
+                                    конфиденциальности</a></span>
+                        </label>
+                        <!-- <input type="hidden" name="formData" value="Заказали обратный звонок с сайта <?php echo get_home_url(); ?>"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="close-smg_boby close-modal"></div>
+        </div>
+    </div>
+
+    <div class="modal-smg_boby modal-smg-thanks" id="modal-smg-thanks">
+        <div class="modal-smg_boby-content">
+            <div class="modal-smg">
+                <div class="modal-smg_container">
+                    <div class="close--modal-smg close-modal"></div>
+                    <div class="thanks-content">
+                        <div class="icon-ok"></div>
+                        <div class="title-modal">Заявка успешно отправлена.</div>
+                        <div class="descr-modal">Мы скоро свяжемся с Вами</div>
+                    </div>
+                </div>
+            </div>
+            <div class="close-smg_boby close-modal"></div>
+        </div>
+    </div>
+
+    <a class="btn btn-modal--reg btn-mobile--footer__fixed" href="#"><span>Оформить за 5 минут</span></a>
+
+    <!--Сайт создал danilsmg.ru (я писал код для этого сайта и делал дизайн с нуля!)-->
+
+
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+
+</html>

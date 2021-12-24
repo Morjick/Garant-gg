@@ -1,0 +1,23 @@
+{
+  "name": "garant-gg",
+  "version": "1.0.0",
+  "description": "api garant.gg",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "author": "Morjick Matvey <matvey-khramov@inbox.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "nodemailer": "^6.7.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "PORT": "80",
+  "mongoUrl": "mongodb+srv://Morjick:1234zxcv@garant-gg.6mw7k.mongodb.net/Garant?retryWrites=true&w=majority",
+  "jwtSecret": "very secret key"
+}
